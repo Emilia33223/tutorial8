@@ -14,10 +14,12 @@ public class Penguin extends Animal {
     public String move() {
         return "Swim";
     }
-    public void setfromAntarctica(){
+    public void setFromAntarctica(){
         this.fromAntarctica = true;
     }
-    public boolean getfromAntarctica(){
+    public boolean getFromAntarctica(){
         return fromAntarctica;
     }
+
+
 }
